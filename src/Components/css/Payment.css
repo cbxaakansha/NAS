@@ -1,0 +1,128 @@
+.payment-section {
+    height: 100%;
+  }
+  .payment-container h2{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 5px;
+
+  }
+  .payment-container h3{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    color: #ffffff;
+
+  }
+
+  
+  /* .payment-container {
+    padding: 20px ;
+    margin-top: 40px;
+    height: 100%;
+    background-color: #000000;
+    margin: auto;
+    border: 1px solid #333;
+    border-radius: 25px;
+    padding: 20px;
+    width: 500px;
+  }
+   */
+  .payment-details {
+    background-color: #000000;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    padding: 20px;
+    margin: 30px 20px;
+  }
+  .payment-details ul {
+    margin: 32px;
+    padding: 0px !important;
+}
+
+  .payment-details li{
+    list-style: none;
+  }
+  
+  .payment-label {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+  }
+  
+  .payment-radio {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 0; 
+    cursor: pointer;
+  }
+  
+  .payment-text {
+        font-size: 20px;
+          font-weight: 500;
+    color: #ffffff;
+  }
+  .icon-info{
+   
+    width: 30px;
+  
+  }
+      .payment-summary {
+        color: white;
+        background-color: black;
+        border-radius: 8px;
+        max-width: 400px;
+        margin: 10px auto;
+
+      }
+      
+      .summary-table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      
+      .summary-table th,
+      .summary-table td {
+        border: 1px solid #fff;
+        padding: 10px;
+      }
+      
+      .summary-table th {
+        background-color: #222;
+        text-transform: uppercase;
+      }
+      
+      .summary-table tbody tr td {
+        color: white;
+      }
+      
+      .tax-label {
+        text-align: center;
+      }
+      
+      .total-label {
+        font-size: 20px;
+        text-align: left;
+        font-weight: 600;
+      }
+      
+      tfoot td {
+        border-top: 2px solid #fff;
+        font-weight: bold;
+      }
+
+
+.payment-form{
+    padding: 5px 30px;
+    height: 100%;
+    background-color: #000000;
+    margin:0px auto;
+    border:2px solid #FFFF;
+    border-radius: 25px;
+}
+      

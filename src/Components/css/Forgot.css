@@ -1,0 +1,28 @@
+.forgot-container
+{
+padding: 66px 20px ;
+}
+.Card1-container {
+    background-color: #000000;
+    margin: auto;
+    border: 1px solid #333;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 400px;
+  }
+
+
+.forgot-head{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.forgot-label{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 5px;
+}

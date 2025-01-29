@@ -1,0 +1,129 @@
+.client-container
+{
+padding: 66px 20px ;
+}
+.Card-container {
+    background-color: #000000;
+    margin: auto;
+    border: 1px solid #333;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 400px;
+  }
+  .client-checkbox{
+    width: 15px;
+    height: 15px;
+  }
+  
+  .form-terms {
+    font-size: 18px;
+  }
+  
+  .remember-me {
+    font-size: 18px;
+    color: white;
+  }
+  
+  .forgot-password {
+    font-size: 18px;
+    text-decoration: underline;
+    color: #2d66b0;
+  }
+  
+  .form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .forgot-password:hover {
+    color: #1a4e84;
+  }
+  
+  .form-group {
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: #ffffff;
+  }
+  
+  .form-group input:focus-visible {
+    outline: none !important;
+  }
+  
+  .password-group {
+    position: relative;
+  }
+  
+  .password-group input {
+    padding-right: 40px; 
+  }
+  
+  .toggle-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .terms {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .terms input {
+    margin-right: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+  }
+  .buttons p{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .buttons button {
+    padding: 12px;
+    background-color: #797979;
+    margin: 10px 0px 5px 0px;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 60%;
+  }
+  
+  .buttons button:hover {
+    background-color: #000000;
+  }
+  
+  .signup-button {
+    background-color: #797979;
+  }
+  
+  .signup-button:hover {
+    background-color: #1a4e84;
+  }
+  

@@ -1,0 +1,48 @@
+.request-section {
+    height: 100%;
+}
+
+.request-container h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+
+
+/* .request-container {
+    padding: 20px 30px;
+    margin-top: 40px;
+    height: 100%;
+    background-color: #000000;
+    margin: auto;
+    border: 1px solid #333;
+    border-radius: 25px;
+    width: 500px;
+} */
+
+.input-text1 {
+    max-width: 400px;
+    /* width: 90%; */
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    padding: 15px 20px;
+    border-radius: 25px;
+    margin-bottom: 60px;
+}
+
+.request-container input {
+    /* border: 1px solid #333; */
+    border-radius: 25px;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px 15px;
+    height: 270px;
+}
+@media (max-width: 425px) {
+.request-container input{
+    height: 200px;
+}
+}

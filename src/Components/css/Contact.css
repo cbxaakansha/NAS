@@ -1,0 +1,77 @@
+
+.contact-container
+{
+padding: 66px 20px ;
+}
+.Card2-container{
+  background-color: #000000;
+  margin: auto;
+  border: 1px solid #333;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 500px;
+}
+
+  .contact-form p{
+    text-align: center;
+    font-size: 32px ;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+
+  .right-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 30px 40px !important;
+    box-sizing: border-box; 
+    border: 2px solid #0000001A;
+    border-radius: 10px;
+  }
+  
+
+  
+ 
+  
+  .contact-form button {
+    background-color: #797979;
+    border: 5px solid #fff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 30%;
+    padding: 12px;
+    border-radius: 25px;
+  }
+  .custom-label{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .contact-form button:hover {
+    background-color: #000;
+    border: 5px solid #fff;
+    color: #fff;
+  }
+  .form-control{
+    font-size: 16px;
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 25px;
+    height: 50px;
+    padding: 10px 20px;
+    
+  }
+  @media (max-width: 576px) {
+    .Card2-container{
+      max-width: 400px;
+    }
+  }
+ 

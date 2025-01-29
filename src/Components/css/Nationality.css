@@ -1,0 +1,129 @@
+.nationality-section {
+    height: 100%;
+}
+
+.nationality-container h2 {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    text-align: left;
+}
+.star-span {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #ff0000;
+
+}
+
+/* .nationality-container {
+    padding: 20px;
+    margin-top: 40px;
+    height: 100%;
+    background-color: #000000;
+    margin: auto;
+    border: 1px solid #333;
+    border-radius: 25px;
+    width: 500px;
+} */
+
+.nationality-details {
+    background-color: #000000;
+    margin: 5px;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    padding: 0px 10px;
+    min-width: 400px;
+}
+
+.nationality-details ul {
+    margin: 20px;
+    padding: 0px !important;
+}
+
+.nationality-details li {
+    list-style: none;
+}
+
+
+
+.gender-preference {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gender-preference label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.gender-preference input[type="radio"] {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.gender-preference input[type="radio"]:checked {
+    background-color: #ffffff;
+}
+
+.gender-preference span {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+.nationality-row {
+    margin-bottom: 15px;
+    gap: 20px;
+}
+
+
+
+.nationality-row input[type="radio"] {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+.nationality-row input[type="radio"]:checked {
+    background-color: #ffffff;
+}
+
+.nationality-text1, .nationality-text {
+    flex: 1;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.nationality-price {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+@media (max-width: 425px) {
+
+.nationality-details {
+    min-width: 300px;
+}
+.nationality-details ul{
+    margin: 20px 10px;
+}
+}

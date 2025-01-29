@@ -1,0 +1,103 @@
+.form-check-input {
+  width: 25px;
+  height: 25px;
+}
+.registration-form {
+  max-width: 1100px;
+  margin: 0 auto;
+  color: #333;
+}
+.form-1 {
+  border: 1px solid #333;
+  background-color: #000;
+  border-radius: 35px;
+  padding: 10px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.form-control{
+  padding: 5px 20px;
+  border: 1px solid #000;
+  border-radius: 25px;
+  background-color: #fff;
+}
+.form-control1{
+  width: 30%;
+  padding: 5px 20px;
+  border: 1px solid #000;
+  border-radius: 25px;
+  background-color: #fff;
+}
+.form-select{
+  width: 15%;
+  padding: 5px 20px;
+  border: 1px solid #000;
+  border-radius: 25px;
+  background-color: #fff;
+}
+.verify-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+} 
+.text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-check{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+
+.Btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.SubmitBtn {
+  padding: 10px 20px;
+  background: #fff;
+  border: 3px solid #000;
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 25px;
+  transition: background 0.3s ease;
+}
+.SubmitBtn:hover {
+  background: #000;
+  color: #fff;
+}
+@media (min-width: 424px) and (max-width: 576px) {
+.form-control1{
+  width: 50%;
+  padding: 5px 20px;
+  border: 1px solid #000;
+  border-radius: 25px;
+  background-color: #fff;
+}
+.form-select{
+  width: 30%;
+  padding: 5px 20px;
+  border: 1px solid #000;
+  border-radius: 25px;
+  background-color: #fff;
+}
+.form-check{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.form-check-input {
+  margin-top: 10px;
+}
+
+}

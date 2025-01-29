@@ -1,0 +1,99 @@
+.menu-container {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.btn-container3, .btn-container4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1; 
+    justify-content: center; 
+}
+
+.dashBtn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    max-width: 350px;
+    background-color: #000;
+    border-radius: 30px ;
+    border: none;
+    padding: 20px ;
+}
+
+.dashboard-button1 {
+    min-width: 300px;
+    max-width: 500px;
+    padding: 20px 40px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0 auto; 
+}
+
+.dashboard-button1:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.menu-container1 {
+    background-color: black;
+    color: white;
+    border: 1px solid #FFFFFF;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 20px;
+    flex-grow: 0.8; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.Menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    width: 100%;
+}
+
+.Menu-items li h2 {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.Menu-items button {
+    min-width: 200px;
+    max-width: 300px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.Menu-items button:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
