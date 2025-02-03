@@ -245,7 +245,7 @@ const Nav1 = () => {
                   <li>
                     <button
                       onClick={() => {
-                        // Add your logic here
+                        navigate('/changePassword');
                         closeMenu();
                       }}
                     >
@@ -265,7 +265,7 @@ const Nav1 = () => {
                   <li>
                     <button
                       onClick={() => {
-                        // Add your logic here
+                        navigate('/changeLanguage');
                         closeMenu();
                       }}
                     >

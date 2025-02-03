@@ -22,6 +22,8 @@ import OTP  from "./Components/pages/OTP";
 import CreatePassword  from "./Components/pages/CreatePassword";
 import Payment1  from "./Components/pages/Payment1";
 import Worker1  from "./Components/pages/Worker1";
+import ChangePassword1  from "./Components/pages/ChangePassword1";
+import Language  from "./Components/pages/Language";
 
 function AppContent() {
   const [useNav1, setUseNav1] = useState(false);
@@ -29,7 +31,7 @@ function AppContent() {
 
   useEffect(() => {
     const navbarRoutes = ["/", "/clients", "/registration", "/success",
-      "/forgot-password","/verification", "/changePassword","/contact","/worker"];
+      "/forgot-password","/verification", "/createPassword","/contact","/worker"];
     if (navbarRoutes.includes(location.pathname)) {
       setUseNav1(false);
     } else {
@@ -56,10 +58,12 @@ function AppContent() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/forgot-password" element={<Forgot />} />
         <Route path="/verification" element={<OTP />} />
-        <Route path="/changePassword" element={<CreatePassword />} />
+        <Route path="/createPassword" element={<CreatePassword />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/payment" element={<Payment1 />} />
         <Route path="/worker" element={<Worker1/>} />
+        <Route path="/changePassword" element={<ChangePassword1/>} />
+        <Route path="/changeLanguage" element={<Language/>} />
       </Routes>
     </div>
   );

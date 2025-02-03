@@ -7,7 +7,7 @@ const OTP = () => {
   const [otp, setOtp] = useState(["", "", "", ""]);
   const navigate = useNavigate();
           const handleverify = () => {
-              navigate("/changePassword");
+              navigate("/createPassword");
             };
 
  
