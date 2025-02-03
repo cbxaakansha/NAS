@@ -80,3 +80,9 @@ padding: 66px 20px ;
 .modal-button:hover {
   background-color: #45a049;
 }
+@media (max-width: 425px) {
+  .Card1-container{
+   max-width: 350px;
+   margin: auto;
+  }
+}

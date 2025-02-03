@@ -74,10 +74,14 @@ button[disabled] {
 
 @media (max-width: 425px) {
     .navigation-container{
-        max-width: 400px;
+        max-width: 350px;
+        margin: auto;
     }
     .navigation-btn{
-        gap: 6rem;
+        gap: 4rem;
+    }
+    .navigation-container {
+        padding: 10px;
     }
 
 

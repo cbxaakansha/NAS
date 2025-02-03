@@ -217,7 +217,7 @@ const Nav1 = () => {
               <img src={logo} alt="logo-img" className="img-fluid" />
             </Link>
           </div>
-          <div className="col-10 col-md-3 lang-icon1 text-right position-relative">
+          <div className="col-6 col-md-3 lang-icon1 text-right position-relative">
             <img src={notification} alt="notification-icon" className="img-fluid" />
             <img
               src={hamburger}

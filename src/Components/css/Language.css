@@ -35,6 +35,12 @@ padding: 66px 20px ;
   select option:checked {
     color: black;
   }
+  @media (max-width: 425px) {
+    .Card-container-language{
+     max-width: 350px;
+     margin: auto;
+    }
+  }
   
   
 

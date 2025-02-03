@@ -11,7 +11,7 @@ padding: 66px 20px ;
     align-items: center;
     justify-content: center;
     padding: 20px;
-    width: 400px;
+    max-width: 400px;
   }
   .client-checkbox{
     width: 15px;
@@ -125,5 +125,11 @@ padding: 66px 20px ;
   
   .signup-button:hover {
     background-color: #1a4e84;
+  }
+  @media (max-width: 425px) {
+    .Card-container{
+     max-width: 350px;
+     margin: auto;
+    }
   }
   

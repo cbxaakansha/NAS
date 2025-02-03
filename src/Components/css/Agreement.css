@@ -43,4 +43,10 @@
     background-color: #000000;
     color: #ffffff;
   }
+  @media (max-width: 425px) {
+    .card-content{
+        max-width: 350px;
+        margin: auto;
+    }
+  }
   

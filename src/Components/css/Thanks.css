@@ -50,11 +50,14 @@
 @media (max-width: 425px) {
   .Order-btn-box {
       font-size: 16px;
-      gap: 4rem;
+      gap: 3rem;
   }
-  .card-content1{
-    max-width: 400px;
-  }
+  .card-content1 {
+    max-width: 350px;
+}
+.OrderBtn {
+  padding: 10px 15px;
+}
   
   }
 
