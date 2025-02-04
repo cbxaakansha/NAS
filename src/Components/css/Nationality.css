@@ -121,9 +121,17 @@
 @media (max-width: 425px) {
 
 .nationality-details {
-    min-width: 300px;
+    min-width: 280px;
 }
 .nationality-details ul{
     margin: 20px 10px;
+}
+.nationality-text1, .nationality-text {
+    font-size: 16px;
+
+}
+.nationality-container h2 {
+    font-size: 22px;
+    margin-left: 15px;
 }
 }

@@ -6,8 +6,7 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
-    min-width: 1000px;
-    max-width: 1100px;
+
     margin: 10px auto;
     gap: 10px;
 }
@@ -25,7 +24,7 @@
     max-width: 900px;
     margin: 10px auto;
 }
-.candidate-form:hover {
+/* .candidate-form:hover {
     background-color: #fff; 
     border: 5px solid #000;
     padding: 10px;
@@ -33,12 +32,13 @@
     color: #000; 
     max-width: 900px;
     margin: 10px auto;
-}
+} */
   
   .candidate-label {
     width: 100%;
     display: flex;
     align-items: center;
+    margin:0px  15px;
   }
 
   .profile-img {
@@ -185,4 +185,34 @@
   padding-left: 150px;
 }
 
+  }
+
+  @media(max-width:400px){
+    .candidate-span {
+      font-size: 18px;
+      font-weight: 600;
+  }
+  .head-para {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .content-head button {
+    font-size: 16px;
+    font-weight: 600;
+    min-width: 105px !important;
+    max-width: 115px !important;
+  }
+  .SendBtn {
+    padding: 2px 8px;
+    background-color: #000;
+    min-width: 135px !important;
+    max-width: 145px !important;
+  }
+  .para-2 {
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding-left: 150px;
+  }
   }

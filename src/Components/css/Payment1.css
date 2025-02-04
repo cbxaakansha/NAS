@@ -86,9 +86,13 @@
 }
 
 .payment1-button:hover {
+    width: 30%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 25px;
     color: #fff;
     background-color: #000;
-    border: 5px solid #fff;
+    border: 2px solid #fff;
 }
 @media (max-width: 576px) {
 .payment1-button {

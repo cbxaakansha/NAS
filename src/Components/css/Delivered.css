@@ -16,7 +16,7 @@
     margin: 10px auto;
 }
 
-.delivered-form:hover {
+/* .delivered-form:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,7 +27,7 @@
     color: #000;
     max-width: 1000px;
     margin: 10px auto;
-}
+} */
 
 
 .date-para p {
@@ -56,7 +56,7 @@
     border-radius: 25px;
 
 }
-@media (max-width: 425px) {
+@media (max-width: 474px) {
     .delivered-section {
         padding: 50px 20px;
     }
@@ -74,4 +74,11 @@
     font-size: 14px;
     border-radius: 25px;
 }
+}
+
+@media(min-width:475px) and (max-width: 576px) {
+    .delivered-form{
+        width: 450px ;
+        margin: 10px auto;
+    }
 }

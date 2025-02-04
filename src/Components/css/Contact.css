@@ -69,9 +69,25 @@ padding: 66px 20px ;
     padding: 10px 20px;
     
   }
-  @media (max-width: 576px) {
+  @media(min-width:426px) and (max-width: 576px) {
     .Card2-container{
-      max-width: 350px;
+      max-width: 400px;
+      margin: auto;
+    }
+    .contact-form button {
+      width: 44%;
     }
   }
+  @media (max-width: 425px) {
+    .contact-form button {
+      width: 40%;
+    }
+  .custom-label {
+    font-size: 16px;
+  }
+  .Card2-container{
+    max-width: 290px;
+    margin: auto;
+  }
+}
  

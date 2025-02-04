@@ -42,10 +42,23 @@
   .btn-box button:hover {
     background-color: #000000;
     color: #ffffff;
+    border: 3px solid #fff;
   }
   @media (max-width: 425px) {
     .card-content{
-        max-width: 350px;
+        max-width: 300px;
+        margin: auto;
+    }
+  }
+  @media(min-width:426px) and (max-width: 576px) {
+    .card-content{
+        max-width: 400px;
+        margin: auto;
+    }
+  }
+  @media(min-width:576px) and (max-width: 767px) {
+    .card-content{
+        max-width: 450px;
         margin: auto;
     }
   }

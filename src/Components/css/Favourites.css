@@ -5,6 +5,7 @@
 .favourites-form {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #000;
     padding: 10px;
     border-radius: 45px;
@@ -13,7 +14,7 @@
     margin: 10px auto;
 }
 
-.favourites-form:hover {
+/* .favourites-form:hover {
     background-color: #fff;
     border: 5px solid #000;
     padding: 10px;
@@ -21,7 +22,7 @@
     color: #000;
     max-width: 1000px;
     margin: 10px auto;
-}
+} */
 
 .favourites-label {
     width: 100%;
@@ -32,7 +33,7 @@
 
 .profile-img {
     border-radius: 50%;
-    width: 65px;
+    width: 49px;
     height: 40px;
 }
 
@@ -80,7 +81,7 @@
     border-radius: 25px;
 
 }
-@media(min-width:400px) and (max-width: 768px) {
+@media(min-width:425px) and (max-width: 768px) {
 
 .removeBtn {
     padding: 10px 20px;
@@ -89,5 +90,28 @@
 .favourites-span {
     font-size: 20px;
 }
+.heart-img{
+    width: 25px;
+    height: 25px;
+}
 
+
+}
+@media (max-width: 425px) {
+    .profile-img {
+        border-radius: 50%;
+        width: 38px !important;
+        height: 35px;
+    }
+.star{
+width: 18px;
+    height: 24px;
+}
+.removeBtn {
+    padding: 10px ;
+    font-size: 16px;
+}
+.favourites-span {
+    font-size: 18px;
+}
 }

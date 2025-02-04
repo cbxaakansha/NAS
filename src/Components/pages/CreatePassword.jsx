@@ -19,7 +19,7 @@ const CreatePassword = () => {
   };
 
   const handleLogin = (event) => {
-    event.preventDefault(); // Prevent page reload on form submission
+    event.preventDefault(); 
     navigate("/clients");
   };
 

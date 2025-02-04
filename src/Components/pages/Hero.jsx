@@ -1,26 +1,3 @@
-// import React from 'react';
-// import logo from "../../assets/logo.png";
-// import '../css/Hero.css';
-
-// const Hero = () => {
-//   return (
-//     <section className='hero-section'>
-//         <div className='container hero-container'>
-//             <div className='Card-container'>
-//                 <div className='row justify-content-center'>
-//                   <img className='img-fluid hero-img' src={logo} alt='logo' />
-//                 </div>
-//                 <div className='row justify-content-center'>
-//                   <h2>Welcome to NAS</h2>
-//                 </div>
-//             </div>
-//         </div>
-//     </section>
-//   );
-// };
-
-// export default Hero;
-
 import React from 'react';
 import logo from "../../assets/logo1.jpg";
 import '../css/Hero.css';

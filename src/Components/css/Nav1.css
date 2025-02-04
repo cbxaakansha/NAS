@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    padding: 15px 0px;
 }
 
 .logo1,
@@ -18,6 +19,10 @@
 }
 .lang-icon1{
     gap: 10px;
+}
+.logo-img-white,.hamburger,.notification{
+    width: 65px ;
+    height: 65px;
 }
 
 
@@ -76,6 +81,15 @@
     background-color: black;
     color: white;
     border: 1px solid white;
+}
+@media (max-width:425px) {
+    
+
+.lang-icon1 {
+    gap: 10px;
+    width: 66px !important;
+    height: 70px;
+}
 }
 
 

@@ -14,11 +14,11 @@ const Delivered = () => {
       <div className="delivered-content">
         <div className="row delivered-form1" >
         <div className="row delivered-form">
-                        <div className='col-12  col-md-4  date-para'>
+                        <div className='col-12 col-sm-8  col-md-4  date-para'>
                             <p>Sunday - 25.Sep.2023.</p>
                         </div>
                         
-                        <div className="col-12  col-md-3  mid-section">
+                        <div className="col-12 col-sm-4  col-md-3  mid-section">
                           <p>10 waiters</p>
                         </div>
                         <div className='d-flex justify-content-between  col-12  col-md-5 btn-delivered  '>
@@ -33,11 +33,11 @@ const Delivered = () => {
                        
             </div>
             <div className="row delivered-form">
-                        <div className='col-12  col-md-4  date-para'>
+                        <div className='col-12 col-sm-8 col-md-4  date-para'>
                             <p>Sunday - 25.Sep.2023.</p>
                         </div>
                         
-                        <div className="col-12  col-md-3  mid-section">
+                        <div className="col-12 col-sm-4 col-md-3  mid-section">
                           <p>10 waiters</p>
                         </div>
                         <div className='d-flex justify-content-between  col-12  col-md-5 btn-delivered  '>
@@ -52,11 +52,11 @@ const Delivered = () => {
                        
             </div>
             <div className="row delivered-form">
-                        <div className='col-12  col-md-4  date-para'>
+                        <div className='col-12 col-sm-8  col-md-4  date-para'>
                             <p>Sunday - 25.Sep.2023.</p>
                         </div>
                         
-                        <div className="col-12  col-md-3  mid-section">
+                        <div className="col-12 col-sm-4  col-md-3  mid-section">
                           <p>10 waiters</p>
                         </div>
                         <div className='d-flex justify-content-between  col-12  col-md-5 btn-delivered  '>
@@ -71,11 +71,11 @@ const Delivered = () => {
                        
             </div>
             <div className="row delivered-form">
-                        <div className='col-12  col-md-4  date-para'>
+                        <div className='col-12 col-sm-8  col-md-4  date-para'>
                             <p>Sunday - 25.Sep.2023.</p>
                         </div>
                         
-                        <div className="col-12  col-md-3  mid-section">
+                        <div className="col-12 col-sm-4  col-md-3  mid-section">
                           <p>10 waiters</p>
                         </div>
                         <div className='d-flex justify-content-between  col-12  col-md-5 btn-delivered  '>

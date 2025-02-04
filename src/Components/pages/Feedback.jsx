@@ -14,13 +14,13 @@ const Feedback = () => {
             <p className="col-12 col-md-6 head-para-feedback">
               Sunday - 25.Sep.2023 - 10 Waiters
             </p>
-            <div className="col-4 col-md-3 icon-star">
+            <div className="col-7 col-md-3 icon-star">
               <div className="stars">
                 <span className="star filled"></span>
                 <span className="star filled"></span>
                 <span className="star filled"></span>
-                <span className="star"></span>
-                <span className="star"></span>
+                <span className="star filled"></span>
+                <span className="star filled"></span>
               </div>
             </div>
             <div className="col-3 col-md-1 comment-section">
@@ -41,12 +41,12 @@ const Feedback = () => {
   <label className="row feedback-label">
     <div className="col-2 col-md-2 col-lg-1">
       <img
-        className="img-fluid profile-img"
+        className=" profile-img"
         src={user}
         alt="profile"
       />
     </div>
-    <div className="col-9 col-md-8 col-lg-4 d-flex align-items-center">
+    <div className="col-7 col-md-8 col-lg-4 d-flex align-items-center">
       <span className="feedback-span">Mohammad Ahmad</span>
     </div>
 
@@ -59,7 +59,7 @@ const Feedback = () => {
       <span className="comment-text">Block</span>
     </div>
 
-    <div className="col-4 col-md-3 col-lg-3 d-flex justify-content-center align-items-center">
+    <div className="col-7 col-md-3 col-lg-3 d-flex justify-content-center align-items-center">
       <div className="stars">
         <span className="star filled"></span>
         <span className="star filled"></span>

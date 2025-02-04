@@ -22,7 +22,7 @@ const Dashboard = () => {
       <section className="section-container">
         <div className="container dashboard-container ">
           <div className="row btn-container  ">
-            <div className="col-md-6 mb-5 dashBtn">
+            <div className="col-12 col-sm-6 col-md-6 mb-5 dashBtn">
               <button
                 className="btn   text-center py-4 dashboard-button"
                 onClick={handleNavigation}
@@ -30,28 +30,25 @@ const Dashboard = () => {
                 Create a New Order
               </button>
             </div>
-
-            <div className="col-md-6 mb-5 dashBtn">
-              <button
-                className="btn   text-center py-4 dashboard-button"
-                onClick={handlePending}
-              >
-                Pending Orders
-              </button>
-            </div>
-          </div>
-          <div className="row btn-container1  ">
-            <div className="col-md-6 mb-5 dashBtn">
+            <div className="col-12 col-sm-6 col-md-6 mb-5 dashBtn">
               <button className="btn   text-center py-4 dashboard-button" 
               onClick={handleDelivered}>
                 Delivered Orders
               </button>
             </div>
 
-            <div className="col-md-6 mb-5 dashBtn">
+            <div className="col-12 col-sm-6 col-md-6 mb-5 dashBtn">
               <button className="btn   text-center py-4 dashboard-button"
               onClick={handleFavourites}>
                 Favourites
+              </button>
+            </div>
+            <div className="col-12 col-sm-6 col-md-6 mb-5 dashBtn">
+              <button
+                className="btn   text-center py-4 dashboard-button"
+                onClick={handlePending}
+              >
+                Pending Orders
               </button>
             </div>
           </div>

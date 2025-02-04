@@ -37,7 +37,7 @@ padding: 66px 20px ;
   }
   @media (max-width: 425px) {
     .Card-container-language{
-     max-width: 350px;
+     max-width: 290px;
      margin: auto;
     }
   }

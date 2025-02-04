@@ -14,7 +14,7 @@ const Contact = () => {
             <form className="contact-form ">
               <p>Contact Us </p>
                 <div className="row">
-              <div className="form-group2 mb-3 col-6">
+              <div className="form-group2 mb-3 col-12 col-sm-6 col-md-6">
                 <label htmlFor="firstName" className="custom-label">First Name</label>
                 <input
                   type="text"
@@ -23,7 +23,7 @@ const Contact = () => {
                   placeholder="Enter your first name"
                 />
               </div>
-              <div className="form-group2 mb-3 col-6">
+              <div className="form-group2 mb-3 col-12 col-sm-6 col-md-6">
                 <label htmlFor="lastName" className="custom-label">Last Name</label>
                 <input
                   type="text"

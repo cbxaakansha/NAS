@@ -58,7 +58,20 @@
     gap: 30px;
   }
   .workers-container h2 {
-    padding: 0px 30px;
+    padding: 0px 50px;
+}
+.worker-details {
+  width: 270px;
+}
+.workers-container h2 {
+  font-size: 20px;
+}
+.waiter-text {
+  font-size: 18px;
+}
+.waiter-checkbox {
+  width: 16px;
+  height: 16px;
 }
 }
   

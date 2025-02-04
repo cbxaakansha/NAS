@@ -95,19 +95,10 @@
     font-size: 14px;
 }
 
-/* .quantity-container {
-    padding: 20px;
-    margin-top: 40px;
-    height: 100%;
-    background-color: #000000;
-    margin: auto;
-    border: 1px solid #333;
-    border-radius: 25px;
-    width: 500px;
-} */
 @media (max-width: 425px) {
 .quantity-details {
     padding: 0px 5px;
+    width: 100%;
 }
 .quantity-details ul {
     margin: 33px 0px;
@@ -117,6 +108,9 @@
     width: 42%;
 }
 .quantity-text {
-    font-size: 18px;
+    font-size: 16px;
+}
+.gender-preference span {
+    font-size: 12px;
 }
 }
